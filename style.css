@@ -1,0 +1,58 @@
+body {
+    font-family: 'Quicksand';
+}
+
+#first {
+    position: relative;
+    background-color: #FFB4B4;
+    color: black;
+    border: 3px #61481C solid;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #7F5283;
+    padding: 50px;
+    margin: 10px;
+    transition: 2s;
+}
+
+#first:hover {
+    background-color: #395B64;
+    color: #B2A4FF;
+}
+
+#Second {
+    position: relative;
+    background-color: #D61C4E;
+    color: #FFF80A;
+    border: 3px #293462 solid;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #FEB139;
+    padding: 50px;
+    margin: 10px;
+    transition: 2s;
+}
+
+#Second:hover {
+    background-color: #94B49F;
+    color: #231955;
+}
+
+#Third {
+
+    position: relative;
+    background-color: #000000;
+    color: #FF9F29;
+    border: 3px #F15412 solid;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #FF7396;
+    padding: 50px;
+    margin: 10px;
+    transition: 2s;
+}
+
+#Third:hover {
+    background-color: #3AB0FF;
+    color: #B25068;
+}
