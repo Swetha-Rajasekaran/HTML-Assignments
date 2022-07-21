@@ -1,0 +1,56 @@
+body {
+    font-family: 'Josefin Sans';
+}
+
+.topic{
+    
+   text-align: center;
+    border: 2px solid black;
+  padding: 25px;
+    color: white;
+    background-image: url('music.jpg');
+    background-size:cover;
+   
+}
+#parent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#F9CEEE;
+}
+
+.child {
+    
+    position: relative;
+    background-color: hsl(315, 86%, 5%);
+    color: #FF9F29;
+    border: 3px #F15412 solid;
+    width: 100px;
+    height:100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #FF7396;
+    padding: 50px;
+    margin: 10px;
+    transition: 2s;
+} 
+
+ .child:hover {
+    background-color: #BDE6F1;
+    color: #B25068;
+}
+
+.btn{
+    background-color: black ;
+    color: white;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    font-weight: bold;
+    transition: 2s;
+}
+.btn:hover{
+    box-shadow: 40px 22px 3px 0px yellow;
+}
